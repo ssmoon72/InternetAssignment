@@ -1,0 +1,201 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.bluearino{
+  color: blue;
+}
+.redarino{
+  color: red;
+}
+.teal {
+  color: #17a4c3;
+}
+.bold {
+  font-weight: bold;
+}
+.wrapper{
+  width: 970px;
+  font-family: Arial, sans-serif;
+}
+.header img{
+  position: relative;
+  z-index: 2;
+  width: 75px;
+  margin: 0px 5px 0px 5px;
+}
+.header h1{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-left: -10px;
+  font-family: Arial, sans-serif;
+}
+.header h2{
+  position: relative;
+  z-index: 1;
+  top: -20px;
+  background: rgb(208,228,247);
+  background: -moz-linear-gradient(top,  rgba(208,228,247,1) 0%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%, rgba(135,188,234,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+  background: linear-gradient(to bottom,  rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 );
+  padding: 10px;
+  color: white;
+  margin-top: 0px;
+}
+.sidebar{
+  width: 175px;
+  height: 600px;
+  padding: 0px 5px 5px 5px;
+  display: inline-block;
+}
+.sidebarTop{
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.sidebarTop h4{
+  margin-bottom: 10px;
+}
+.sidebarTop p{
+  font-size: .9em;
+}
+.sidebarTop a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: .9em;
+  margin: 15px 0px 5px 0px;
+  padding: 5px 0px 5px 0px
+}
+.sidebarTop .video{
+  background-color: blue;
+  text-align: center;
+}
+.sidebarTop .references{
+  background-color: orange;
+  text-align: center;
+}
+.sidebarBottom {
+  background-image: url("images/ad_background.png");
+  display: inline-block;
+  height: 255px;
+  background-size: 125px;
+  margin: 20px 0px 20px 0px;
+  padding-top: 5px;
+}
+.sidebarBottom > img{
+  height: 100px;
+  margin-left: 48px;
+}
+.sidebarBottom p{
+  color: white;
+  text-align: center;
+  margin: 15px;
+}
+.sidebar .adButton {
+  background-color: #17a4c3;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: .8em;
+  border: 1px solid #17a4c3;
+  border-radius: 5px;
+  margin: 10px 15px 10px 15px;
+  padding: 5px;
+  text-align: center;
+}
+.right{
+  display: inline-block;
+  vertical-align: top;
+}
+.contactHeader{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  padding-right: 5px;
+  border-bottom: 1px solid black;
+}
+.contactHeader .phone {
+  width: 40px;
+  display: inline-block;
+  margin: -15px -10px 0px 500px;
+  position: relative;
+  vertical-align: top;
+}
+.contactHeader > img{
+  width: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.contactHeader a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: .8em;
+}
+.phoneHours{
+  display: inline-block;
+  width: 150px;
+  vertical-align: top;
+  margin-top: -25px;
+  margin-left: -30px;
+  padding-left: 20px;
+}
+.phoneHours p{
+  color: #17a4c3;
+  text-align: center;
+  font-size: 1.15em;
+}
+.phoneHours .hoursInternational {
+  font-size: .5em;
+  color: black;
+}
+.content{
+  margin: 10px 30px 10px 30px;
+  width: 700px;
+  font-size: .85em;
+}
+.content ul{
+  padding: 5px;
+  margin: 5px 40px 5px 40px;
+}
+.content li {
+  padding: 5px;
+}
+.content .client {
+  width: 200px;
+  margin-left: 200px;
+  display: block;
+}
+.content ol{
+  padding: 5px;
+  margin: 5px 40px 5px 40px;
+}
+.bottomText {
+  border-top: 5px solid #17a4c3;
+  border-left: 5px solid #17a4c3;
+  border-right: 5px solid #17a4c3;
+  padding: 5px;
+}
+.languages {
+  padding: 5px;
+  margin-left: 120px;
+  margin-top: -105px;
+}
+.bigThree {
+  width: 100px;
+  margin: 5px;
+}
+.languages p{
+  margin-bottom: 10px;
+  top: -50px;
+  display: inline-block;
+  vertical-align: top;
+}
+.languages a{
+  text-decoration: none;
+  color: #17a4c3;
+}
